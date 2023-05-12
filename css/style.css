@@ -410,3 +410,134 @@ p,span,li,a{
 .footer-section .links-all ul li i {
     margin-right: 10px;
 }
+.social-icon {
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+    right: 50px;
+}
+.social-icon li{
+    list-style: none;
+}
+.social-icon li {
+    list-style: none;
+    width: 45px;
+    height: 45px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.social-icon li:hover {
+    width: 43px;
+    height: 43px;
+}
+.social-icon li a i{
+    color: #fff;
+}
+.social-icon li:nth-child(1) {
+    background-image: linear-gradient(to right bottom, #ffbc0f, #ffa408, #ff8b11, #fd711d, #f75628, #f54335, #f12d40, #eb0b4b, #e8005b, #e3006b, #db007a, #d00589);
+}
+.social-icon li:nth-child(2) {
+    background-color: rgb(47 9 131);
+}
+.social-icon li:nth-child(3) {
+    background-color: rgb(2 163 2);
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    p,span,li,a{
+        font-size: 14px;
+    }
+    .navbar-brand {
+        width: 80%;
+    }
+    .navbar-extended {
+        background-color: #f4ffff !important;
+    }
+    .banner-text h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .banner-p {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .banner-text h1:after {
+        width: 65%;
+        bottom: -11px;
+        left: 18%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 5px;
+    }
+    .btn-same-all {
+        padding: 7px 15px !important;
+        border-radius: 3px;
+        display: inline-block;
+    }
+    .section {
+        padding: 20px 0;
+    }
+    .heding-sm-all h2 {
+        font-size: 30px;
+    }
+    .heding-sm-all {
+        margin-bottom: 15px;
+    }
+    .heding-sm-all p {
+        width: 100%;
+        line-height: 22px;
+    }
+    .project-section-all {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .project-section-all .main-icon {
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+    .project-section-all h6 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .project-section-all h6:after {
+        width: 90%;
+        right: -20px;
+        bottom: -11px;
+    }
+    .video-youtube iframe {
+        width: 100%;
+    }
+    .border-right {
+        border-bottom: 1px solid #ccc;
+        border-right: none;
+    }
+    .border-bottom {
+        border-bottom: none;
+    }
+    .testimonial-one-bg {
+        width: 100%;
+    }
+    .social-icon li{
+        width: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .social-icon li i{
+        font-size: 12px;
+    }
+    .social-icon {
+        right: 15px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: unset;
+    }
+}
