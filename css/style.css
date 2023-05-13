@@ -52,7 +52,6 @@ p,span,li,a{
     border: 1px solid transparent;
     color: #fff;
     padding: 12px 30px !important;
-    border: none;
     border-radius: 5px;
     transition: 0.3s ease-in-out;
     text-decoration: none;
