@@ -474,6 +474,222 @@ p,span,li,a{
     z-index: 9;
     border-radius: 10px;
 }
+.outer { 
+    margin:0 auto; 
+    max-width:800px;
+}
+#big .item { 
+    background: #ec6e46; 
+    padding: 120px 0px;
+    margin:2px; 
+    color: #FFF; 
+    border-radius: 3px; 
+    text-align: center; 
+}
+#thumbs .item { background: #C9C9C9; height:70px; line-height:70px; padding: 0px; margin:2px; color: #FFF; border-radius: 3px; text-align: center; cursor: pointer; }
+#thumbs .item h1 { font-size: 18px; }
+#thumbs .current .item { 
+    background:#FF5722; 
+}
+.owl-theme .owl-nav [class*='owl-'] { 
+    -webkit-transition: all .3s ease; 
+    transition: all .3s ease; 
+}
+.owl-theme .owl-nav [class*='owl-'].disabled:hover { 
+    background-color: #D6D6D6; 
+}
+#big.owl-theme { 
+    position: relative; 
+}
+#big.owl-theme .owl-next, #big.owl-theme .owl-prev { 
+    background:#333; 
+    width: 22px; 
+    line-height:40px; 
+    height: 40px; 
+    margin-top: -20px; 
+    position: absolute; 
+    text-align:center; 
+    top: 50%; 
+}
+#big.owl-theme .owl-prev { 
+    left: 10px; 
+}
+#big.owl-theme .owl-next {
+     right: 10px; 
+    }
+#thumbs.owl-theme .owl-next, #thumbs.owl-theme .owl-prev { 
+    background:#333; 
+}
+.details-section.section {
+    margin-top: 50px;
+}
+.left-text {
+    text-align: left !important;
+}
+.flx-btn-grup a {
+    background: #b62c4e;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 2px;
+}
+.flx-btn-grup a:not(:first-child) {
+    margin-left: 5px;
+    background-color: #4b4b4b;
+}
+.building-location-text {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    margin-top: 10px;
+}
+.building-location-text p {
+    width: unset;
+    margin: unset;
+}
+.building-location-text p {
+    margin-left: 10px !important;
+}
+.building-location-text i {
+    color: rgb(255, 202, 28);
+}
+.over-view {
+    padding: 20px;
+    border-bottom: 1px solid #b62c4e;
+}
+.over-view h6{
+    font-size: 25px;
+}
+.over-view-box {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.overview-dtls {
+    text-align: center;
+}
+.overview-dtls p {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+}
+.overview-dtls span {
+    font-weight: 300;
+    font-size: 14px;
+}
+.g-map {
+    padding: 20px;
+}
+.g-map iframe{
+    width: 100%;
+}
+.mt-cstm{
+    margin-top: 20px;
+    background-color: #f4ffff;
+}
+.propart-text {
+    padding: 20px;
+}
+.finance-img {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.prpty-cumnt {
+    padding: 20px;
+}
+.all-dcmnt {
+    display: flex;
+    justify-content: space-between;
+}
+.all-dcmnt:not(:last-child) {
+    margin-bottom: 15px;
+}
+.dcmnt i {
+    color: #b62c4e;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.all-dcmnt a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #b62c4e;
+}
+.master-pln {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.master-pln:not(:last-child) {
+    padding-bottom: unset !important;
+}
+.master-pln img{
+    width: 50%;
+}
+.master-pln :first-child{
+    margin-right: 20px;
+}
+.overlay {
+    padding: 10px;
+}
+/* .cent {
+    padding-right: 0;
+    padding-left: 10px;
+    padding-bottom: 20px;
+} */
+.menu_iso {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.menu_iso li {
+    list-style: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.menu_iso a {
+    color: #b62c4e;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.is-checked {
+    background-color: #b62c4e;
+    color: #fff !important;
+}
+.features-points ul {
+    padding-left: 0;
+}
+.features-points ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.features-points ul li img{
+    width: 30px;
+    margin-right: 10px;
+}
+.features-points {
+    padding: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.stiky-form {
+    background: #f4ffff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b62c4e;
+    display: block;
+    position: sticky;
+    top: 100px;
+}
+.stiky-form h6 {
+    font-size: 25px;
+}
+
 
 
 @media only screen and (max-width: 767px) {
