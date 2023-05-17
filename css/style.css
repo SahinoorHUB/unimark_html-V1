@@ -689,6 +689,34 @@ p,span,li,a{
 .stiky-form h6 {
     font-size: 25px;
 }
+.stiky-form label {
+    font-weight: 500;
+}
+.stiky-form input,textarea {
+    border: transparent;
+    background: transparent;
+    border-bottom: 1px solid #b62c4e;
+    border-radius: unset;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.stiky-form input:focus{
+    outline: unset;
+    box-shadow: none;
+    background: transparent;
+}
+.stiky-form textarea {
+    background: transparent;
+    border: 1px solid #b62c4e;
+    border-radius: unset;
+    padding: 5px;
+    font-size: 14px;
+}
+.stiky-form textarea:focus{
+    outline: unset;
+    box-shadow: none;
+    background: transparent;
+}
 
 
 
@@ -779,5 +807,15 @@ p,span,li,a{
     }
     .navbar-toggler:focus{
         box-shadow: unset;
+    }
+    .over-view {
+        padding: 10px 0 5px;
+    }
+    .over-view h6{
+        margin-bottom: 0;
+    }
+    .menu_iso a {
+        font-size: 10px;
+        padding: 7px;
     }
 }
