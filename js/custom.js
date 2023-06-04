@@ -36,7 +36,7 @@ $(document).ready(function() {
       autoplayTimeout:3000,
       // animateOut: "fadeOut",
       // autoplayHoverPause:true,
-      navText: ["<i class='bi bi-chevron-left'></i>","<i class='bi bi-chevron-right'></i>"],
+      navText: ['<i class="bi bi-chevron-right"></i>','<i class="bi bi-chevron-right"></i>'],
       responsive: {
        0: {
             items: 1
@@ -72,10 +72,6 @@ $(document).ready(function() {
     dots: false,
     loop: true,
     responsiveRefreshRate: 200,
-    navText: [
-      '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
-      '<i class="fa fa-arrow-right" aria-hidden="true"></i>'
-    ]
   })
     .on("changed.owl.carousel", syncPosition);
 
@@ -88,8 +84,8 @@ $(document).ready(function() {
   })
     .owlCarousel({
     items: 4,
-    dots: true,
-    nav: true,
+    dots: false,
+    nav: false,
     navText: [
       '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
       '<i class="fa fa-arrow-right" aria-hidden="true"></i>'
@@ -169,10 +165,10 @@ $(document).ready(function () {
       queue: false
     },
 
-    layoutMode: "fitRows",
-    fitRows: {
-      gutter: 0
-    }
+    // layoutMode: "fitRows",
+    // fitRows: {
+    //   gutter: 0
+    // }
   });
 
   jQuery("#custom-filter li:first-child > a").addClass("is-checked");
